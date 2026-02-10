@@ -1,0 +1,53 @@
+{
+  "account": "1420978691@qq.com",
+  "credential": "ayqgbqgzkhjkxc2r",
+  "remoteDir": "",
+  "remoteCacheDir": "",
+  "useGitStyle": false,
+  "conflictStrategy": "diff-match-patch",
+  "oauthResponseText": "",
+  "loginMode": "manual",
+  "confirmBeforeSync": true,
+  "syncMode": "loose",
+  "filterRules": {
+    "exclusionRules": [
+      {
+        "expr": ".git",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": ".DS_Store",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": ".trash",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": ".obsidian",
+        "options": {
+          "caseSensitive": false
+        }
+      }
+    ],
+    "inclusionRules": [
+      {
+        "expr": ".obsidian/bookmarks.json",
+        "options": {
+          "caseSensitive": false
+        }
+      }
+    ]
+  },
+  "skipLargeFiles": {
+    "maxSize": "30 MB"
+  },
+  "realtimeSync": false,
+  "startupSyncDelaySeconds": 0
+}
