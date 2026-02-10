@@ -276,7 +276,7 @@ public class SwaggerConfig {
 
 [芋道项目地址](https://github.com/YunaiV/ruoyi-vue-pro)
 
-[swagger文档地址](%5B**%3Chttp://127.0.0.1:48080/doc.html**%3E%5D\(%3Chttp://127.0.0.1:48080/doc.html%3E\))
+[swagger文档地址](http://127.0.0.1:48080/doc.html)
 
 ### 一键改包
 
@@ -468,13 +468,13 @@ public class SwaggerConfig {
     
     进入yudao-server模块下pom.xml文件下引入新增模块
     
-    ![image.png](attachment:71cd0d56-1a6a-482b-bccc-4f12d2a28b58:image.png)
+    ![image.png](/attachment/image.png)
     
 6. 添加swagger分组
     
     需要添加swagger→GroupOpenApiBean
     
-    ![image.png](attachment:d22eb7a5-8cda-480a-a46f-ff3057540b9b:image.png)
+    ![image.png](/attachment/image.png)
     
 
 ### 代码生成
@@ -525,7 +525,7 @@ public class SwaggerConfig {
 
 - CommonResult类
 
-![image.png](attachment:5655477a-9029-4cb1-8909-65100af51ce9:image.png)
+![image.png](/attachment/image.png)
 
 ```json
 {
@@ -549,7 +549,7 @@ public class SwaggerConfig {
 
 - 开启日志→application.yaml→logging:level添加对应debug
 
-![image.png](attachment:d5e0f230-481e-4051-923a-bb04e36a0969:image.png)
+![image.png](/attachment/image.png)
 
 - 操作日志→记录增删改查数据→[**`system_operate_log`**](https://github.com/YunaiV/ruoyi-vue-pro/blob/master/yudao-module-system/yudao-module-system-biz/src/main/java/cn/iocoder/yudao/module/system/dal/dataobject/logger/OperateLogDO.java)
 
